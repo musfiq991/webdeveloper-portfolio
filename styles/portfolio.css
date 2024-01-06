@@ -66,8 +66,8 @@ nav a {
 .banner .profile-pic {
     width: 584px;
     height: 676px;
-   
-   
+
+
 }
 
 .banner-greeting {
@@ -94,6 +94,7 @@ nav a {
 .banner-discription {
     color: var(--Dark-03, #757575);
     font-family: Open Sans;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -122,7 +123,7 @@ nav a {
     color: #181818;
     text-align: center;
     font-size: 35px;
-    font-weight: 700;
+
 }
 
 .section-description {
@@ -133,7 +134,7 @@ nav a {
 
 main {
     width: 1140px;
-    height: 550px;
+
     flex-shrink: 0;
     margin: 0 auto;
 }
@@ -188,15 +189,59 @@ main section {
     font-size: 30px;
     font-weight: 700;
 }
+
 /* resume-item styles */
-.resume-container{ display: flex;gap: 50px;}
-.resume-item-description{
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-description {
     color: #757575;
     font-size: 16px;
 }
-.resume-item-title{color:#474747 ;font-size: 25px;}
-.resume-item-sub-title{color: #757575;font-size: 20px;margin-top: 10px;margin-bottom: 20px;}
-.resume-container hr { margin: 30px;}
-.dwonlode-cv{
-    text-align: center;margin-top: 50px;
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
 }
+
+.resume-item-sub-title {
+    color: #757575;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.dwonlode-cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 230px;
+}
+.footer-column{ width: 50%;}
+.contact input[type="text"], input[type="email"] , 
+textarea {
+    display: block;
+    padding: 18px 30px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+background:#FFF;
+color: #757575;
+font-size: 16px;
+border: 0;
+width: 100%;
+
+}
+.social-links a{ padding: 20px;}
